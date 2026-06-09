@@ -183,3 +183,143 @@ a{
     opacity: 0.2;
 
 }
+.music-player{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album{
+    width:25%;
+}
+.player{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.controls{
+    width:25%;
+}
+.player-controls{
+    display:flex;
+    justify-content:center;
+}
+
+.player-control-icon{
+    height:0.8rem;
+    margin: 1rem 1rem 0.7rem 1rem;
+    
+    opacity: 0.7;
+}
+.player-control-icon:hover{
+    opacity: 1;
+}
+.center{
+    margin-top:0.7rem;
+    height:1.4rem;
+    opacity:1;
+}
+.center:hover{
+
+    height:1.5rem;
+}
+.playback-bar{
+    
+    width:60%;
+    margin-left:2rem;
+}
+.progress-bar{
+    width:70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.progress-bar::-webkit-slider-runnable-track{
+    background-color:#ddd;
+    margin-bottom:0.36rem;
+    border-radius:100px;
+    height: 0.15rem;
+}
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height:0.8rem;
+    width:0.8rem;
+    background-color:#1bd760;
+    border-radius:50%;
+    margin-top:-0.4rem;
+}
+
+.album{
+    display:flex;
+    justify-content: center;
+}
+.album-picture{
+    height:3rem;
+    margin-top:1.2rem;
+    margin-left:-5rem;
+}
+.album-icon1{
+    height:1rem;
+    margin-bottom: 1.5rem;
+}
+.album-icon2{
+    height: 1.7rem;
+    margin-bottom:1rem;
+    margin-left:1rem;
+}
+.p{
+    margin-left:1rem;
+    margin-top: 0.4rem;
+}
+.p2{
+    font-size:0.7rem;
+    margin-top:-0.6rem;
+    opacity:0.8;
+}
+.album-icons{
+    margin-top:2rem;
+    margin-left:2rem;
+}
+.controls{
+    display:flex;
+    height:2rem;
+    justify-content: center;
+}
+.control-icon3{
+    margin-top:0.3rem;
+    height:1.2rem;
+    opacity:0.6;
+   
+}
+.control-icon4{
+    height:0.8rem;
+    margin-top:0.5rem;
+    opacity:0.7; 
+}
+.control-icon{
+    margin-left:1rem;
+
+}
+.control-icon:hover{
+    opacity:1;
+}
+.volume{
+    width:8rem;
+    margin-top:0.3rem;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.controls .volume::-webkit-slider-runnable-track{
+    background-color:#ddd;
+    margin-bottom:0.25rem;
+    border-radius:100px;
+    height: 0.1rem;
+}
+.controls .volume::-webkit-slider-thumb{
+    opacity:0;
+}
+
+
+
+
