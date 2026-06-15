@@ -8,22 +8,24 @@ body{
 .main{
     display: flex;
     height: 100vh;
+    margin-left:1.5rem;
     /* padding:0.5rem; */
 }
 .sidebar{
     background-color:black;
-    width: 350px;
+    width: 380px;
     border-radius:1rem; /*16px */
     padding-top: 0.5rem;
+    margin-right:0.5rem;
 }
 .main-content{
     background-color: #161616;;
     flex: 1;
     border-radius: 1rem;
-    /* margin: 1rem 1rem 1rem 1rem; */
+    
     overflow: auto;
     margin: 0.5rem 0 0 0.5rem;
-    padding: 0 1.5rem 0 1.5rem;
+    padding: 0 1.5rem 0 1rem;
 }
 .music-player{
     background-color: black;
@@ -126,7 +128,7 @@ a{
     z-index:10;
 }
 .sticky-nav-icons {
-    margin-left:0.75rem;
+    margin-left:2rem;
 }
 .sticky-nav-options{
     display:flex;
@@ -151,12 +153,14 @@ a{
     width:150px;
     border-radius: 0.6rem;
     padding:1rem;
-    margin-left:1.5rem;
+    margin-left:3rem;
     margin-top: 1rem;
 }
 .cards-container{
     display:flex;
     flex-wrap: wrap;
+    margin-left:3rem;
+    margin-bottom:3rem;
 
 }
 .card-img{
@@ -318,6 +322,10 @@ a{
 }
 .controls .volume::-webkit-slider-thumb{
     opacity:0;
+}
+
+.heading{
+    margin-left:5rem;
 }
 
 
