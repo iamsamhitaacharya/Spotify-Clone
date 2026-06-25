@@ -350,7 +350,14 @@ a{
 .top  p:hover{
     opacity:1;
 }
-
+.disclaimer {
+  background-color: #1a1a1a;
+  color: #b3b3b3;
+  text-align: center;
+  padding: 8px;
+  font-size: 12px;
+  border-bottom: 1px solid #282828;
+}
 
 
 
