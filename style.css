@@ -16,16 +16,17 @@ body{
     width: 380px;
     border-radius:1rem; /*16px */
     padding-top: 0.5rem;
-    margin-right:0.5rem;
+    /* margin-right:0.5rem; */
 }
+
 .main-content{
-    background-color: #161616;;
+   background: linear-gradient(180deg, #3f0606 0%, #161616 35%);
     flex: 1;
     border-radius: 1rem;
     
     overflow: auto;
     margin: 0.5rem 0 0 0.5rem;
-    padding: 0 1.5rem 0 1rem;
+    padding: 0 1.5rem 0 0;
 }
 .music-player{
     background-color: black;
@@ -40,10 +41,11 @@ a{
     color: #ffffff;
 }
 .nav{
-    background-color: #161616;;
+    background-color: #161616;
     /* margin-top:2rem; */
     border-radius: 1rem;
     height:100px;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +122,8 @@ a{
 .sticky-nav{
     position: sticky;
     top: 0;
-    background-color:#161616;;
+    width: 102%;
+    background-color:#161616;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -128,7 +131,8 @@ a{
     z-index:10;
 }
 .sticky-nav-icons {
-    margin-left:2rem;
+    margin-left:1rem;
+    margin-right:1rem;
 }
 .sticky-nav-options{
     display:flex;
@@ -153,13 +157,15 @@ a{
     width:150px;
     border-radius: 0.6rem;
     padding:1rem;
-    margin-left:3rem;
+    margin-left:1rem;
+    /* margin-right:1rem; */
     margin-top: 1rem;
+    margin-bottom:1rem;
 }
 .cards-container{
     display:flex;
     flex-wrap: wrap;
-    margin-left:3rem;
+    margin-left:1rem;
     margin-bottom:3rem;
 
 }
@@ -325,7 +331,20 @@ a{
 }
 
 .heading{
-    margin-left:5rem;
+    margin-left:2.5rem;
+}
+
+.top{
+    display:flex;
+    justify-content:space-between
+}
+.top  p{
+    font-size:0.8rem;
+    margin-top:2rem;
+    opacity:0.8;
+}
+.top  p:hover{
+    opacity:1;
 }
 
 
